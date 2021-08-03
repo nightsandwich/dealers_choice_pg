@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    font-family: Verdana;
+    background-color:rgba(87, 165, 216, 0.432)
+}
+a {
+    color: rgb(47, 1, 253);
+    font-size: 1em;
+}
+header{
+    color: black;
+    
+    font-size: larger;
+    text-decoration: bold;
+}
+
+.player {
+    color: black;
+    display: flex;
+    border-bottom:2px dotted black;
+    border-width: 25%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+div > .ranking {
+    padding: 1em;    
+}
+.details{
+    color: black; 
+}
+.details .ranking {
+    font-size: 20px;
+    
+}
+img {
+    border: 1px solid black;
+    margin: 1em;
+}
+a img:hover {
+    opacity: 50%;
+}
+
+
